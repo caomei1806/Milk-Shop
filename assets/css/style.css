@@ -29,9 +29,9 @@ h3, h5, h6 {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 45%;
+  height: 68%;
   width: 100%;
-  background: url("../img/wave7.svg");
+  background: url("../img/wave5.svg");
   background-size: cover;
 }
 
@@ -136,7 +136,7 @@ h3, h5, h6 {
 
 .milkshake .imgslogan {
   width: 40%;
-  background-image: url("../img/candy9,3.jpg");
+  background-image: url("../img/candy9,2.jpg");
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -212,5 +212,94 @@ h3, h5, h6 {
 
 .milkshake .milk-menu .special .options .option h6 {
   color: #ee98c7;
+}
+
+.treatsndrinks {
+  font-family: 'Rubik';
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.treatsndrinks .drinkmenu {
+  width: 60%;
+}
+
+.treatsndrinks .drinkmenu .milkyones {
+  margin-left: 6rem;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.treatsndrinks .drinkmenu .milkyones .treats {
+  width: 50%;
+}
+
+.treatsndrinks .drinkmenu .milkyones .treats .element {
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.treatsndrinks .drinkmenu .milkyones .treats hr {
+  border: 0.12rem dashed grey;
+}
+
+.treatsndrinks .drinkmenu .milkyones .bottleddrinks {
+  margin-left: 5rem;
+  width: 50%;
+}
+
+.treatsndrinks .drinkmenu .milkyones .bottleddrinks hr {
+  border: 0.12rem dashed grey;
+}
+
+.treatsndrinks .drinkmenu .milkyones .bottleddrinks .element {
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.treatsndrinks .drinkmenu .colddrinks {
+  width: 80%;
+  margin-left: 6rem;
+}
+
+.treatsndrinks .drinkmenu .colddrinks hr {
+  border: 0.12rem dashed grey;
+}
+
+.treatsndrinks .drinkmenu .colddrinks .element {
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.treatsndrinks .drinkimg {
+  width: 40%;
+  height: 100%;
+  background: url("../img/candy8,1.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
