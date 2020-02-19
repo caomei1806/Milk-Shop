@@ -1,17 +1,24 @@
-$yellow: rgb(255, 208, 0);
+$babypink: #ee98c7;
+$grey: rgb(59, 59, 59);
 body {
-	background-color: rgb(253, 253, 245);
+	background-color: rgb(253, 252, 245);
 }
-
+h2{
+	color: rgb(70, 0, 128);
+}
+h3, h5, h6{
+	color: $grey;
+}
 .welcome-box {
 	width: 100%;
 	height: 100vh;
 	.slogan {
 		width: 100%;
 		height: 50%;
-		background: url("../img/candy15.jpg");
-		background-size: contain;
-		background-repeat: space;
+		background: url("../img/candy11.jpg");
+		background-size: cover;
+		background-position: center;
+		//background-repeat: space;
 		//background-position: 25% 70%;
 		position: relative;
 		&:before {
@@ -26,7 +33,7 @@ body {
 		}
 	}
 	.general-menu {
-		font-family: 'Rubik';
+		font-family: "Rubik";
 		width: 100%;
 		height: 35%;
 		align-items: top;
@@ -35,9 +42,9 @@ body {
 		.ice-cream {
 			width: 40%;
 			height: fit-content;
-            h2{
-                font-weight: bold;
-            }
+			h2 {
+				font-weight: bold;
+			}
 			hr {
 				border: 0.1rem dashed grey;
 			}
@@ -52,10 +59,10 @@ body {
 		.cream-type {
 			width: 40%;
 			height: fit-content;
-            h2{
+			h2 {
 				font-weight: bold;
-            }
-            hr {
+			}
+			hr {
 				border: 0.1rem dashed grey;
 			}
 			.cream-box {
@@ -67,25 +74,86 @@ body {
 			}
 		}
 	}
-	.addition{
-		padding:1.2rem;
+	.addition {
+		padding: 1.2rem;
 		width: max-content;
 		text-align: center;
-		font-family: 'Nunito Sans';
-		border: 0.2rem $yellow solid;
+		font-family: "Nunito Sans";
+		border: 0.2rem $babypink solid;
 		border-radius: 2rem;
 		font-weight: bold;
-		.add{
-			top:-16px;
-			left:47%;
+		.add {
+			top: -16px;
+			left: 47%;
 			background-color: rgb(253, 253, 245);
-			color: $yellow;
+			color: $babypink;
 			text-shadow: rgb(231, 231, 231) 2px -1px 3px;
 			font-size: 1.2rem;
 		}
-		span{
+		span {
 			padding-right: 1rem;
 			padding-left: 1rem;
+		}
+	}
+}
+.milkshake {
+	height: 100vh;
+	.imgslogan {
+		width: 40%;
+		background-image: url("../img/candy9,3.jpg");
+		background-size: cover;
+		background-position: bottom;
+		position: relative;
+	}
+	.milk-menu {
+		width: 45%;
+		font-family: "Rubik";
+		.normal {
+			h2 {
+				font-weight: bold;
+			}
+			hr {
+				border: 0.1rem dashed grey;
+			}
+			.d-flex {
+				align-items: left;
+				justify-content: space-between;
+			}
+			.toppers {
+				border: $babypink 0.2rem solid;
+				border-radius: 2rem;
+				padding-top: 1.1rem !important;
+				padding-bottom: 0.6rem !important;
+				.add {
+					font-weight: bold;
+					top: -15px;
+					left: 35px;
+					background-color: rgb(253, 252, 245);
+				}
+			}
+		}
+		.special{
+			.d-flex {
+				align-items: left;
+				justify-content: space-between;
+			}
+			hr {
+				border: 0.12rem dashed grey;
+			}
+			.options{
+				align-items: top;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				.option{
+					h5{
+						font-weight: bold;
+					}
+					h6{
+						color: $babypink;
+					}
+					width:50%;
+				}
+			}
 		}
 	}
 }
