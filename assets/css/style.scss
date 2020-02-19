@@ -1,0 +1,91 @@
+$yellow: rgb(255, 208, 0);
+body {
+	background-color: rgb(253, 253, 245);
+}
+
+.welcome-box {
+	width: 100%;
+	height: 100vh;
+	.slogan {
+		width: 100%;
+		height: 50%;
+		background: url("../img/candy15.jpg");
+		background-size: contain;
+		background-repeat: space;
+		//background-position: 25% 70%;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 45%;
+			width: 100%;
+			background: url("../img/wave7.svg");
+			background-size: cover;
+		}
+	}
+	.general-menu {
+		font-family: 'Rubik';
+		width: 100%;
+		height: 35%;
+		align-items: top;
+		justify-content: space-evenly;
+		padding-top: 4rem;
+		.ice-cream {
+			width: 40%;
+			height: fit-content;
+            h2{
+                font-weight: bold;
+            }
+			hr {
+				border: 0.1rem dashed grey;
+			}
+			.ice-box {
+				width: 100%;
+				.amount {
+					align-items: baseline;
+					justify-content: space-between;
+				}
+			}
+		}
+		.cream-type {
+			width: 40%;
+			height: fit-content;
+            h2{
+				font-weight: bold;
+            }
+            hr {
+				border: 0.1rem dashed grey;
+			}
+			.cream-box {
+				width: 100%;
+				.size {
+					align-items: baseline;
+					justify-content: space-between;
+				}
+			}
+		}
+	}
+	.addition{
+		padding:1.2rem;
+		width: max-content;
+		text-align: center;
+		font-family: 'Nunito Sans';
+		border: 0.2rem $yellow solid;
+		border-radius: 2rem;
+		font-weight: bold;
+		.add{
+			top:-16px;
+			left:47%;
+			background-color: rgb(253, 253, 245);
+			color: $yellow;
+			text-shadow: rgb(231, 231, 231) 2px -1px 3px;
+			font-size: 1.2rem;
+		}
+		span{
+			padding-right: 1rem;
+			padding-left: 1rem;
+		}
+	}
+}

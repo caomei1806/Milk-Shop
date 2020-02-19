@@ -1,0 +1,124 @@
+body {
+  background-color: #fdfdf5;
+}
+
+.welcome-box {
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome-box .slogan {
+  width: 100%;
+  height: 50%;
+  background: url("../img/candy15.jpg");
+  background-size: contain;
+  background-repeat: space;
+  position: relative;
+}
+
+.welcome-box .slogan:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 45%;
+  width: 100%;
+  background: url("../img/wave7.svg");
+  background-size: cover;
+}
+
+.welcome-box .general-menu {
+  font-family: 'Rubik';
+  width: 100%;
+  height: 35%;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 4rem;
+}
+
+.welcome-box .general-menu .ice-cream {
+  width: 40%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.welcome-box .general-menu .ice-cream h2 {
+  font-weight: bold;
+}
+
+.welcome-box .general-menu .ice-cream hr {
+  border: 0.1rem dashed grey;
+}
+
+.welcome-box .general-menu .ice-cream .ice-box {
+  width: 100%;
+}
+
+.welcome-box .general-menu .ice-cream .ice-box .amount {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome-box .general-menu .cream-type {
+  width: 40%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.welcome-box .general-menu .cream-type h2 {
+  font-weight: bold;
+}
+
+.welcome-box .general-menu .cream-type hr {
+  border: 0.1rem dashed grey;
+}
+
+.welcome-box .general-menu .cream-type .cream-box {
+  width: 100%;
+}
+
+.welcome-box .general-menu .cream-type .cream-box .size {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome-box .addition {
+  padding: 1.2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  font-family: 'Nunito Sans';
+  border: 0.2rem #ffd000 solid;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.welcome-box .addition .add {
+  top: -16px;
+  left: 47%;
+  background-color: #fdfdf5;
+  color: #ffd000;
+  text-shadow: #e7e7e7 2px -1px 3px;
+  font-size: 1.2rem;
+}
+
+.welcome-box .addition span {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
